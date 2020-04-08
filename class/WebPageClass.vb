@@ -7,21 +7,21 @@ Public Class WebPageClass
     Public Function GetWebContent(ByVal mc As String) As String
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=GetWebContent&mc=" & mc
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=GetWebContent&mc=" & mc
         jg = getWebpage(url, "GET")
         Return jg
     End Function
     Public Function GetTitle(ByVal str1 As String, ByVal str2 As String) As String
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=GetTitle&str1=" & str1 & "&str2=" & str2
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=GetTitle&str1=" & str1 & "&str2=" & str2
         jg = getWebpage(url, "GET")
         Return jg
     End Function
     Public Function GetCategoryList() As String
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=GetCategoryList"
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=GetCategoryList"
         jg = getWebpage(url, "GET")
         Return jg
     End Function
@@ -37,7 +37,7 @@ Public Class WebPageClass
     Function SearchP(ByVal mode As String, ByVal Skey As String, ByVal pagex As String, ByVal thisprog As String) As String
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=SearchP&mode=" & mode & "&skey=" & Skey & "&pagex=" & pagex & "&thisprog=" & thisprog
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=SearchP&mode=" & mode & "&skey=" & Skey & "&pagex=" & pagex & "&thisprog=" & thisprog
         jg = getWebpage(url, "GET")
         Return jg
     End Function
@@ -45,14 +45,14 @@ Public Class WebPageClass
     Function pCateList(ByVal thisprog As String) As String
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=pCateList&thisprog=" & thisprog
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=pCateList&thisprog=" & thisprog
         jg = getWebpage(url, "GET")
         Return jg
     End Function
     Function CateList(ByVal thisprog) As String
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=CateList&thisprog=" & thisprog
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=CateList&thisprog=" & thisprog
         jg = getWebpage(url, "GET")
         Return jg
     End Function
@@ -60,14 +60,14 @@ Public Class WebPageClass
     Function SearchZl(ByVal mode As Integer, ByVal Skey As String, ByVal pagex As Integer, ByVal thisprog As String) As String
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=SearchZl&mode=" & mode & "&skey=" & Skey & "&pagex=" & pagex & "&thisprog=" & thisprog
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=SearchZl&mode=" & mode & "&skey=" & Skey & "&pagex=" & pagex & "&thisprog=" & thisprog
         jg = getWebpage(url, "GET")
         Return jg
     End Function
     Function lxfs() As String
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=lxfs"
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=lxfs"
         jg = getWebpage(url, "GET")
         Return jg
     End Function
@@ -75,34 +75,34 @@ Public Class WebPageClass
     Function xxzl(ByVal cid) As String
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=xxzl&cid=" & cid
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=xxzl&cid=" & cid
         jg = getWebpage(url, "GET")
         Return jg
     End Function
     Function getCateName4cid(ByVal Cid) As String
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=getCateName4cid&cid=" & Cid
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=getCateName4cid&cid=" & Cid
         jg = getWebpage(url, "GET")
         Return jg
     End Function
     Sub countManual(ByVal cid)
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=countManual&cid=" & cid
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=countManual&cid=" & cid
         jg = getWebpage(url, "GET")
     End Sub
     Sub countProduct(ByVal cid)
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=countProduct&cid=" & cid
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=countProduct&cid=" & cid
         jg = getWebpage(url, "GET")
     End Sub
     Function GetProduct4id(ByVal cid) As String()
         Dim jg() As String
         Dim jgx As String
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=GetProduct4id&cid=" & cid
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=GetProduct4id&cid=" & cid
         jgx = getWebpage(url, "GET")
         jg = Split(jgx, "|")
         Return jg
@@ -110,7 +110,7 @@ Public Class WebPageClass
     Function GetManual4id(ByVal cid) As String()
         Dim jg(10), jgx As String
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=GetManual4id&cid=" & cid
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=GetManual4id&cid=" & cid
         jgx = getWebpage(url, "GET")
         jg = Split(jgx, "|")
         Return jg
@@ -119,7 +119,7 @@ Public Class WebPageClass
     Function saveOrderItem(ByVal name, ByVal tel, ByVal fax, ByVal email, ByVal company, ByVal address, ByVal resumex, ByVal ywy, ByVal type, ByVal sl, ByVal manufactory, ByVal fz, ByVal jsj) As String
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?a=saveOrderItem&name=" & name & "&tel=" & tel
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=saveOrderItem&name=" & name & "&tel=" & tel
         url &= "&fax=" & fax & "&email=" & email & "&company=" & company
         url &= "&address=" & address & "&resumex=" & resumex & "&ywy=" & ywy
         url &= "&type=" & type & "&sl=" & sl & "&manufactory=" & manufactory
