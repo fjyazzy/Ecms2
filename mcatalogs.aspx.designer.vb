@@ -41,22 +41,13 @@ Partial Public Class mcatalogs
     Protected WithEvents Content2 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
     
     '''<summary>
-    '''tBar 控件。
+    '''tBarx 控件。
     '''</summary>
     '''<remarks>
     '''自动生成的字段。
     '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
     '''</remarks>
-    Protected WithEvents tBar As Global.Ecms2.pagetop
-    
-    '''<summary>
-    '''sbox1 控件。
-    '''</summary>
-    '''<remarks>
-    '''自动生成的字段。
-    '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-    '''</remarks>
-    Protected WithEvents sbox1 As Global.Ecms2.searchbox
+    Protected WithEvents tBarx As Global.Ecms2.pagetopx
     
     '''<summary>
     '''Form1 控件。
@@ -66,24 +57,6 @@ Partial Public Class mcatalogs
     '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
     '''</remarks>
     Protected WithEvents Form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-    
-    '''<summary>
-    '''Menubar1 控件。
-    '''</summary>
-    '''<remarks>
-    '''自动生成的字段。
-    '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-    '''</remarks>
-    Protected WithEvents Menubar1 As Global.Ecms2.Cat_column
-    
-    '''<summary>
-    '''mbar 控件。
-    '''</summary>
-    '''<remarks>
-    '''自动生成的字段。
-    '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-    '''</remarks>
-    Protected WithEvents mbar As Global.Ecms2.menubar
     
     '''<summary>
     '''Label1 控件。

@@ -1,9 +1,6 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="showpic.aspx.vb" Inherits="Ecms2.showpic" %>
 <%@ Register tagPrefix="PageBottomhtml" tagname="Bottombar" src="components/pageBottom.ascx" %>
-<%@ Register tagPrefix="PageTophtml" tagname="topbar" src="components/pagetop.ascx" %>
-<%@ Register tagPrefix="Menubar" tagname="menubar" src="components/menubar.ascx" %>
-<%@ Register tagPrefix="CategoryList" tagname="CateList" src="components/CategoryList.ascx" %>
-<%@ Register tagPrefix="searchbox" tagname="sbox" src="components/searchbox.ascx" %>
+<%@ Register tagPrefix="PageTophtmlx" tagname="topbar" src="components/pagetopx.ascx" %>
 <html>
 <head>
 		<title runat="server" id="PageTitle">电子资料-电子-资料中心</title>
@@ -22,19 +19,9 @@
 </head>
 
 	<body>
-        <table style="width:100%">
-            <tr>
-                <td><PAGETOPHTML:TOPBAR id="tBar" runat="server"></PAGETOPHTML:TOPBAR></td>
-                <td><searchbox:sbox id="sbox1" runat="server"></searchbox:sbox></td>
-            </tr>
-        </table>
-		<table style="width:100%">
-            <tr>
-                <td><CategoryList:CateList id="Menubar1" runat="server"></CategoryList:CateList></td>
-                <td><Menubar:Menubar id="mbar" runat="server"></Menubar:Menubar></td>
-            </tr>
-			<tr>
-				<td colspan="2">
+ 
+     <PAGETOPHTMLx:TOPBAR id="tBarx" runat="server"></PAGETOPHTMLx:TOPBAR>
+
 
 		<table border="1" align="center">
 			<tr>
@@ -50,9 +37,7 @@
 			</tr>
 		</table>
 
-				</td>
-			</tr>
-		</table>
+
 		<PAGEBottomHTML:BottomBAR id="bottombar1" runat="server"></PAGEBottomHTML:BottomBAR>
 	</body>
 </html>

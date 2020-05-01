@@ -65,7 +65,7 @@
         '生成产品图片信息 -- jgx2 
         jgx2 = ""
         If Len(fv(4)) > 5 Then
-            jgx2 &= "<a href=showpic.aspx?i=" & fv(4) & " target=_blank><img src='photos/" & fv(4) & "' alt=" & fv(3) & " border=0 width=300></a>"
+            jgx2 &= "<a href=showpic.aspx?i=" & Center_PicUrl & "/" & fv(4) & " target=_blank><img src='" & Center_PicUrl & "/T_" & fv(4) & "' alt=" & fv(3) & " border=0 width=300></a>"
         Else
             jgx2 &= "<img src='images/Come_on.gif' border=0 width=300 alt=" & fv(3) & " >"
         End If

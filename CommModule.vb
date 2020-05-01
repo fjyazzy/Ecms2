@@ -1,8 +1,13 @@
 ﻿Module CommModule
     Public WCS As New Ecms2.WebPageClass
-    Public RemoteUrl As String = "http://localhost/cmsv1/apis/ecms"
-    Public DBord As String = 6
-    Public GSMC As String = "1111111111"
-    Public WZMC As String = "222222222"
+
+    Public urlStr As String = System.Configuration.ConfigurationManager.AppSettings.Item("URLSTR")
+    Public RemoteUrl As String = urlStr & "apis/ecms"
+    Public Center_PicUrl As String = urlStr & "Center_photos/ecms"
+    Public Center_ManualUrl As String = urlStr & "Center_Manuals/ecms"
+
+    Public DBord As String = System.Configuration.ConfigurationManager.AppSettings.Item("DBORD")
+    Public GSMC As String = WCS.GetSystemInfo("021")
+    Public WZMC As String = WCS.GetSystemInfo("026")
 
 End Module

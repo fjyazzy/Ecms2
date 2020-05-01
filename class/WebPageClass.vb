@@ -4,6 +4,13 @@ Imports System.Net.Security
 Imports System.Security.Authentication
 Imports System.Security.Cryptography.X509Certificates
 Public Class WebPageClass
+    Public Function GetSystemInfo(ByVal itemno As String) As String
+        Dim jg As String = ""
+        Dim url As String = ""
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=GetSystemInfo&itemno=" & itemno
+        jg = getWebpage(url, "GET")
+        Return jg
+    End Function
     Public Function GetWebContent(ByVal mc As String) As String
         Dim jg As String = ""
         Dim url As String = ""
@@ -18,19 +25,18 @@ Public Class WebPageClass
         jg = getWebpage(url, "GET")
         Return jg
     End Function
-    Public Function GetCategoryList() As String
+    Public Function GetCategoryList(ByVal str1 As String) As String
         Dim jg As String = ""
         Dim url As String = ""
-        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=GetCategoryList"
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=GetCategoryList&str1=" & str1
         jg = getWebpage(url, "GET")
         Return jg
     End Function
     Public Function GetSearchBox()
-        Dim jg As String
-        jg = "<form action=catalogs.aspx>"
-        jg &= "<input type=text name=skey size=60>"
-        jg &= "<input type=submit name='搜索' value='搜索'>"
-        jg &= "</form>"
+        Dim jg As String = ""
+        Dim url As String = ""
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=GetSearchBox"
+        jg = getWebpage(url, "GET")
         Return jg
     End Function
     ' 显示产品列表
@@ -39,6 +45,7 @@ Public Class WebPageClass
         Dim url As String = ""
         url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=SearchP&mode=" & mode & "&skey=" & Skey & "&pagex=" & pagex & "&thisprog=" & thisprog
         jg = getWebpage(url, "GET")
+        jg = Replace(jg, "<<Remote_Center_Photos>>", Center_PicUrl)
         Return jg
     End Function
     ' 显示目录产品列表
@@ -127,8 +134,20 @@ Public Class WebPageClass
         jg = getWebpage(url, "GET")
         Return jg
     End Function
-
-
+    Function GetNewList() As String
+        Dim jg As String = ""
+        Dim url As String = ""
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=GetNewList"
+        jg = getWebpage(url, "GET")
+        Return jg
+    End Function
+    Function GetNews4id(ByVal cid As String) As String
+        Dim jg As String = ""
+        Dim url As String = ""
+        url = RemoteUrl & "/Ecms_OpenApi.ashx?DBord=" & DBord & "&a=GetNews4id&cid=" & cid
+        jg = getWebpage(url, "GET")
+        Return jg
+    End Function
 
 
 

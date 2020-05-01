@@ -41,6 +41,15 @@ Partial Public Class index2
     Protected WithEvents Content2 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
     
     '''<summary>
+    '''TOPBARt 控件。
+    '''</summary>
+    '''<remarks>
+    '''自动生成的字段。
+    '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+    '''</remarks>
+    Protected WithEvents TOPBARt As Global.Ecms2.topbar
+    
+    '''<summary>
     '''tBar 控件。
     '''</summary>
     '''<remarks>
@@ -57,15 +66,6 @@ Partial Public Class index2
     '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
     '''</remarks>
     Protected WithEvents sbox1 As Global.Ecms2.searchbox
-    
-    '''<summary>
-    '''Form1 控件。
-    '''</summary>
-    '''<remarks>
-    '''自动生成的字段。
-    '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-    '''</remarks>
-    Protected WithEvents Form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
     '''Menubar1 控件。
@@ -86,6 +86,15 @@ Partial Public Class index2
     Protected WithEvents mbar As Global.Ecms2.menubar
     
     '''<summary>
+    '''Form1 控件。
+    '''</summary>
+    '''<remarks>
+    '''自动生成的字段。
+    '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+    '''</remarks>
+    Protected WithEvents Form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+    
+    '''<summary>
     '''Label1 控件。
     '''</summary>
     '''<remarks>
@@ -93,6 +102,24 @@ Partial Public Class index2
     '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
     '''</remarks>
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''Label3 控件。
+    '''</summary>
+    '''<remarks>
+    '''自动生成的字段。
+    '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+    '''</remarks>
+    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''Label2 控件。
+    '''</summary>
+    '''<remarks>
+    '''自动生成的字段。
+    '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+    '''</remarks>
+    Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''bottombar1 控件。

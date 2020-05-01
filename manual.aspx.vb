@@ -3,7 +3,12 @@
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim cid As Long
-        cid = CLng(Request("id"))
+        If Request("id") = "" Then
+            cid = 0
+        Else
+            cid = CLng(Request("id"))
+        End If
+
         Dim fv(5) As String
         fv = WCS.GetManual4id(cid)
         Dim m_title, M_Meta_C, M_Meta_Key
@@ -38,9 +43,6 @@
         jg &= WCS.SearchP(1, Left(fv(2), 2), 1, "Catalogs.aspx")
         jg &= "</td></tr></table>"
         WCS.countManual(cid)
-        If cid = "" Then
-            cid = 0
-        End If
         Label1.Text = WCS.xxzl(cid) & jg
 
     End Sub

@@ -6,96 +6,6 @@ Ecms2
 </name>
 </assembly>
 <members>
-<member name="F:Ecms2.Aboutus1._PageTitle">
-<summary>
-PageTitle 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Aboutus1._Content1">
-<summary>
-Content1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Aboutus1._Content2">
-<summary>
-Content2 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Aboutus1._tBar">
-<summary>
-tBar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Aboutus1._sbox1">
-<summary>
-sbox1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Aboutus1._Form1">
-<summary>
-Form1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Aboutus1._Menubar1">
-<summary>
-Menubar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Aboutus1._mbar">
-<summary>
-mbar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Aboutus1._Label1">
-<summary>
-Label1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Aboutus1._bottombar1">
-<summary>
-bottombar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
 <member name="F:Ecms2.buy._PageTitle">
 <summary>
 PageTitle 控件。
@@ -123,18 +33,9 @@ Content2 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.buy._tBar">
+<member name="F:Ecms2.buy._tBarx">
 <summary>
-tBar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.buy._sbox1">
-<summary>
-sbox1 控件。
+tBarx 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -144,24 +45,6 @@ sbox1 控件。
 <member name="F:Ecms2.buy._Form1">
 <summary>
 Form1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.buy._Menubar1">
-<summary>
-Menubar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.buy._mbar">
-<summary>
-mbar 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -249,96 +132,6 @@ bottombar1 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.Career._PageTitle">
-<summary>
-PageTitle 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Career._Content1">
-<summary>
-Content1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Career._Content2">
-<summary>
-Content2 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Career._tBar">
-<summary>
-tBar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Career._sbox1">
-<summary>
-sbox1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Career._Form1">
-<summary>
-Form1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Career._Menubar1">
-<summary>
-Menubar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Career._mbar">
-<summary>
-mbar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Career._Label1">
-<summary>
-Label1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Career._bottombar1">
-<summary>
-bottombar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
 <member name="F:Ecms2.catalogs._PageTitle">
 <summary>
 PageTitle 控件。
@@ -366,18 +159,9 @@ Content2 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.catalogs._tBar">
+<member name="F:Ecms2.catalogs._tBarx">
 <summary>
-tBar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.catalogs._sbox1">
-<summary>
-sbox1 控件。
+tBarx 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -387,24 +171,6 @@ sbox1 控件。
 <member name="F:Ecms2.catalogs._Form1">
 <summary>
 Form1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.catalogs._Menubar1">
-<summary>
-Menubar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.catalogs._mbar">
-<summary>
-mbar 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -465,6 +231,51 @@ Label1 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
+<member name="F:Ecms2.pagetopx._TOPBARt">
+<summary>
+TOPBARt 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.pagetopx._tBar">
+<summary>
+tBar 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.pagetopx._sbox1">
+<summary>
+sbox1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.pagetopx._Menubar1">
+<summary>
+Menubar1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.pagetopx._mbar">
+<summary>
+mbar 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
 <member name="F:Ecms2.searchbox._Label1">
 <summary>
 Label1 控件。
@@ -477,96 +288,6 @@ Label1 控件。
 <member name="F:Ecms2.slideshow._Label1">
 <summary>
 Label1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Contactus._PageTitle">
-<summary>
-PageTitle 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Contactus._Content1">
-<summary>
-Content1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Contactus._Content2">
-<summary>
-Content2 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Contactus._tBar">
-<summary>
-tBar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Contactus._sbox1">
-<summary>
-sbox1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Contactus._Form1">
-<summary>
-Form1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Contactus._Menubar1">
-<summary>
-Menubar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Contactus._mbar">
-<summary>
-mbar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Contactus._Label1">
-<summary>
-Label1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.Contactus._bottombar1">
-<summary>
-bottombar1 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -600,6 +321,15 @@ Content2 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
+<member name="F:Ecms2.index2._TOPBARt">
+<summary>
+TOPBARt 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
 <member name="F:Ecms2.index2._tBar">
 <summary>
 tBar 控件。
@@ -612,15 +342,6 @@ tBar 控件。
 <member name="F:Ecms2.index2._sbox1">
 <summary>
 sbox1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.index2._Form1">
-<summary>
-Form1 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -645,6 +366,15 @@ mbar 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
+<member name="F:Ecms2.index2._Form1">
+<summary>
+Form1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
 <member name="F:Ecms2.index2._Label1">
 <summary>
 Label1 控件。
@@ -654,97 +384,25 @@ Label1 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
+<member name="F:Ecms2.index2._Label3">
+<summary>
+Label3 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.index2._Label2">
+<summary>
+Label2 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
 <member name="F:Ecms2.index2._bottombar1">
-<summary>
-bottombar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.link._PageTitle">
-<summary>
-PageTitle 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.link._Content1">
-<summary>
-Content1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.link._Content2">
-<summary>
-Content2 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.link._tBar">
-<summary>
-tBar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.link._sbox1">
-<summary>
-sbox1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.link._Form1">
-<summary>
-Form1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.link._Menubar1">
-<summary>
-Menubar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.link._mbar">
-<summary>
-mbar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.link._Label1">
-<summary>
-Label1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.link._bottombar1">
 <summary>
 bottombar1 控件。
 </summary>
@@ -780,18 +438,9 @@ Content2 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.manual1._tBar">
+<member name="F:Ecms2.manual1._tBarx">
 <summary>
-tBar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.manual1._sbox1">
-<summary>
-sbox1 控件。
+tBarx 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -801,24 +450,6 @@ sbox1 控件。
 <member name="F:Ecms2.manual1._Form1">
 <summary>
 Form1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.manual1._Menubar1">
-<summary>
-Menubar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.manual1._mbar">
-<summary>
-mbar 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -870,18 +501,9 @@ Content2 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.mcatalogs._tBar">
+<member name="F:Ecms2.mcatalogs._tBarx">
 <summary>
-tBar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.mcatalogs._sbox1">
-<summary>
-sbox1 控件。
+tBarx 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -891,24 +513,6 @@ sbox1 控件。
 <member name="F:Ecms2.mcatalogs._Form1">
 <summary>
 Form1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.mcatalogs._Menubar1">
-<summary>
-Menubar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.mcatalogs._mbar">
-<summary>
-mbar 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -980,7 +584,7 @@ bottombar1 控件。
   重写当前线程的 CurrentUICulture 属性。
 </summary>
 </member>
-<member name="F:Ecms2.notices._PageTitle">
+<member name="F:Ecms2.Mypages._PageTitle">
 <summary>
 PageTitle 控件。
 </summary>
@@ -989,7 +593,7 @@ PageTitle 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.notices._Content1">
+<member name="F:Ecms2.Mypages._Content1">
 <summary>
 Content1 控件。
 </summary>
@@ -998,7 +602,7 @@ Content1 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.notices._Content2">
+<member name="F:Ecms2.Mypages._Content2">
 <summary>
 Content2 控件。
 </summary>
@@ -1007,25 +611,16 @@ Content2 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.notices._tBar">
+<member name="F:Ecms2.Mypages._tBarx">
 <summary>
-tBar 控件。
+tBarx 控件。
 </summary>
 <remarks>
 自动生成的字段。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.notices._sbox1">
-<summary>
-sbox1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.notices._Form1">
+<member name="F:Ecms2.Mypages._Form1">
 <summary>
 Form1 控件。
 </summary>
@@ -1034,25 +629,7 @@ Form1 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.notices._Menubar1">
-<summary>
-Menubar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.notices._mbar">
-<summary>
-mbar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.notices._Label1">
+<member name="F:Ecms2.Mypages._Label1">
 <summary>
 Label1 控件。
 </summary>
@@ -1061,7 +638,7 @@ Label1 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.notices._bottombar1">
+<member name="F:Ecms2.Mypages._bottombar1">
 <summary>
 bottombar1 控件。
 </summary>
@@ -1097,18 +674,9 @@ Content2 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.products._tBar">
+<member name="F:Ecms2.products._tBarx">
 <summary>
-tBar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.products._sbox1">
-<summary>
-sbox1 控件。
+tBarx 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -1118,24 +686,6 @@ sbox1 控件。
 <member name="F:Ecms2.products._Form1">
 <summary>
 Form1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.products._Menubar1">
-<summary>
-Menubar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.products._mbar">
-<summary>
-mbar 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -1187,36 +737,9 @@ Content2 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.showpic._tBar">
+<member name="F:Ecms2.showpic._tBarx">
 <summary>
-tBar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.showpic._sbox1">
-<summary>
-sbox1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.showpic._Menubar1">
-<summary>
-Menubar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.showpic._mbar">
-<summary>
-mbar 控件。
+tBarx 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -1292,18 +815,9 @@ Content2 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
-<member name="F:Ecms2.viewManual._tBar">
+<member name="F:Ecms2.viewManual._tBarx">
 <summary>
-tBar 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.viewManual._sbox1">
-<summary>
-sbox1 控件。
+tBarx 控件。
 </summary>
 <remarks>
 自动生成的字段。
@@ -1313,24 +827,6 @@ sbox1 控件。
 <member name="F:Ecms2.viewManual._Form1">
 <summary>
 Form1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.viewManual._Menubar1">
-<summary>
-Menubar1 控件。
-</summary>
-<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member>
-<member name="F:Ecms2.viewManual._mbar">
-<summary>
-mbar 控件。
 </summary>
 <remarks>
 自动生成的字段。

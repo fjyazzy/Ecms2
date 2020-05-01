@@ -43,4 +43,3 @@ D:\Upload\Ecms2\obj\Debug\Ecms2.vbproj.GenerateResource.Cache
 D:\Upload\Ecms2\obj\Debug\Ecms2.dll
 D:\Upload\Ecms2\obj\Debug\Ecms2.xml
 D:\Upload\Ecms2\obj\Debug\Ecms2.pdb
-D:\Upload\Ecms2\obj\Debug\Ecms2.vbprojResolveAssemblyReference.cache

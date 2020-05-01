@@ -58,32 +58,27 @@
     <Import Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Aboutus.aspx" />
     <Content Include="buy.aspx" />
-    <Content Include="Career.aspx" />
     <Content Include="catalogs.aspx" />
     <Content Include="components\CategoryList.ascx" />
     <Content Include="components\menubar.ascx" />
     <Content Include="components\pagebottom.ascx" />
     <Content Include="components\pagetop.ascx" />
+    <Content Include="components\pagetopx.ascx" />
     <Content Include="components\searchbox.ascx" />
     <Content Include="components\slideshow.ascx" />
-    <Content Include="Contactus.aspx" />
+    <Content Include="components\topbar.ascx" />
     <Content Include="css\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="images\buy.gif" />
-    <Content Include="images\logo.gif" />
     <Content Include="images\logo.png" />
     <Content Include="images\pdf.gif" />
     <Content Include="images\pic.gif" />
-    <Content Include="images\test.jpg" />
-    <Content Include="images\test.png" />
     <Content Include="index.aspx" />
     <Content Include="js\common.js" />
-    <Content Include="link.aspx" />
     <Content Include="manual.aspx" />
     <Content Include="mcatalogs.aspx" />
-    <Content Include="notices.aspx" />
+    <Content Include="Mypages.aspx" />
     <Content Include="products.aspx" />
     <Content Include="showpic.aspx" />
     <Content Include="vcode.aspx" />
@@ -91,25 +86,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aboutus.aspx.designer.vb">
-      <DependentUpon>Aboutus.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Aboutus.aspx.vb">
-      <DependentUpon>Aboutus.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
     <Compile Include="buy.aspx.designer.vb">
       <DependentUpon>buy.aspx</DependentUpon>
     </Compile>
     <Compile Include="buy.aspx.vb">
       <DependentUpon>buy.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Career.aspx.designer.vb">
-      <DependentUpon>Career.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Career.aspx.vb">
-      <DependentUpon>Career.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="catalogs.aspx.designer.vb">
@@ -149,6 +130,13 @@
       <DependentUpon>pagetop.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="components\pagetopx.ascx.designer.vb">
+      <DependentUpon>pagetopx.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="components\pagetopx.ascx.vb">
+      <DependentUpon>pagetopx.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="components\searchbox.ascx.designer.vb">
       <DependentUpon>searchbox.ascx</DependentUpon>
     </Compile>
@@ -163,11 +151,11 @@
       <DependentUpon>slideshow.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contactus.aspx.designer.vb">
-      <DependentUpon>Contactus.aspx</DependentUpon>
+    <Compile Include="components\topbar.ascx.designer.vb">
+      <DependentUpon>topbar.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Contactus.aspx.vb">
-      <DependentUpon>Contactus.aspx</DependentUpon>
+    <Compile Include="components\topbar.ascx.vb">
+      <DependentUpon>topbar.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="index.aspx.designer.vb">
@@ -175,13 +163,6 @@
     </Compile>
     <Compile Include="index.aspx.vb">
       <DependentUpon>index.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="link.aspx.designer.vb">
-      <DependentUpon>link.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="link.aspx.vb">
-      <DependentUpon>link.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="manual.aspx.designer.vb">
@@ -217,12 +198,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="notices.aspx.designer.vb">
-      <DependentUpon>notices.aspx</DependentUpon>
+    <Compile Include="Mypages.aspx.designer.vb">
+      <DependentUpon>Mypages.aspx</DependentUpon>
     </Compile>
-    <Compile Include="notices.aspx.vb">
-      <DependentUpon>notices.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="Mypages.aspx.vb">
+      <DependentUpon>Mypages.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="products.aspx.designer.vb">
       <DependentUpon>products.aspx</DependentUpon>
@@ -266,6 +247,7 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\PublishProfiles\ECMS2.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>

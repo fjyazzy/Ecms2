@@ -7,7 +7,7 @@
         Content1.Attributes.Add("content", WCS.GetTitle("MetaContent", "Showpic"))
         Content2.Attributes.Add("name", "keywords")
         Content2.Attributes.Add("content", WCS.GetTitle("MetaKeywords", "Showpic"))
-        Label1.Text = "<img id='Img1'  name='Img1' src='photos/" & Request("i") & "' border=0 width=600>"
+        Label1.Text = "<img id='Img1'  name='Img1' src='" & Request("i") & "' border=0 width=600>"
     End Sub
 
 End Class

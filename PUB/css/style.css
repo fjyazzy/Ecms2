@@ -1,0 +1,98 @@
+﻿body,form,table{
+    margin:0;
+    text-align:center;
+}
+table {
+    border-collapse:collapse;
+    margin:auto;
+}
+table.tt{
+        width:1024px;
+}
+/* 登录页样式 begin */
+.tablexx{
+    width:99%;
+    color:brown;
+    margin:0;
+}
+.tablenr{
+    text-align:center;
+    align-items:center;
+    display:inline-flex;
+    border: 1px solid chocolate;
+}
+.tdheader {
+    font-size:x-large;
+    color:#fff;
+    text-align:center;
+    background-color:#808080;
+}
+.logincontent {
+    width:260px;
+    font-size:small;
+    color:#ff6a00;
+    background-color:#eee;
+}
+
+.btnlogin{
+    width:100px;
+    color:#333;
+    background-color:#eee;
+    border: 1px solid chocolate;
+    cursor:pointer;
+}
+a{
+    text-decoration:none;
+    padding:2px;
+}
+
+/* 登录页样式 end */
+
+/* 页面最底端 */
+ .footer{
+ position:absolute;
+ left:0;
+ bottom:0;
+ width:100%;
+ height:120px;
+ font-size:x-small;
+ color:#333;
+ background-color:#eee;
+ text-align:center;
+ }
+
+/* 导航栏 */
+div.horizontal{	height:16px;}
+div#maincontent div.horizontal ul{list-style-type:none;	margin:0;padding:0;	}
+div.horizontal li{list-style-type:none;	float:left;	}
+div.horizontal a{display:block;	width:86px;	}
+div.horizontal a:link,div.horizontal a:visited
+	{
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#bebebe;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+	}
+div.horizontal a:hover,div.horizontal a:active	{background-color:#cc0000;	}
+
+/* 目录分类列表 */
+div.CategoryBar{ 
+	font-weight:bold;
+	color:#FFFFFF;
+    height:16px;
+    background-color:#bebebe;
+    width:86px;
+	padding:4px;
+    text-decoration:none;
+	text-transform:uppercase;
+}
+/* 导航栏表格 */
+.dhltd{
+   height:16px;
+   background-color:#bebebe;
+   vertical-align:top;
+
+}
