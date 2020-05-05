@@ -647,6 +647,69 @@ bottombar1 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
+<member name="F:Ecms2.index._TOPBARt">
+<summary>
+TOPBARt 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.index._form1">
+<summary>
+form1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.index._Label1">
+<summary>
+Label1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.index._Label2">
+<summary>
+Label2 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.index._Mtpb1">
+<summary>
+Mtpb1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.mtopbar._Label1">
+<summary>
+Label1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.mtopbar._Label2">
+<summary>
+Label2 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
 <member name="F:Ecms2.products._PageTitle">
 <summary>
 PageTitle 控件。
@@ -695,6 +758,69 @@ Form1 控件。
 <member name="F:Ecms2.products._Label1">
 <summary>
 Label1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.products._Label2">
+<summary>
+Label2 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.products._Label3">
+<summary>
+Label3 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.products._Label4">
+<summary>
+Label4 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.products._Label5">
+<summary>
+Label5 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.products._Label6">
+<summary>
+Label6 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.products._Label7">
+<summary>
+Label7 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:Ecms2.products._Label8">
+<summary>
+Label8 控件。
 </summary>
 <remarks>
 自动生成的字段。

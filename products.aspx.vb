@@ -40,26 +40,28 @@
         Content2.Attributes.Add("name", "keywords")
         Content2.Attributes.Add("content", P_Meta_Key)
 
-        Dim jg, jgx1, jgx2, jgx3 As String
+        Dim jgx1, jgx2, jgx3, jgx5 As String
+        'create nagntave bar
+        jgx5 = "<a href=index.aspx>首页</a>  &gt; "
+        jgx5 &= WCS.getCateName4cid(fv(6)) & " &gt; "
+        jgx5 &= "<a target=_blank href=manual.aspx?skey=" & fv(3) & ">" & fv(3) & "</a>"
 
         '生成产品基本信息 -- jgx1
         jgx1 = ""
-        jgx1 &= "<h3>" & fv(3) & "&nbsp&nbsp<a href=Buy.aspx?p=" & fv(3) & ">购买本产品>></a></h3>"
-        jgx1 &= WCS.getCateName4cid(fv(6))
-
-        jgx1 &= "<table border=0 width=100% cellpadding=3 cellspacing=1 bgcolor=#999999>"
-        jgx1 &= "<tr><td bgcolor=#ffffff>厂商</td><td bgcolor=#ffffff>" & fv(2) & "</td></tr>"
-        jgx1 &= "<tr><td bgcolor=#ffffff>封装</td><td bgcolor=#ffffff>" & fv(7) & "</td></tr>"
-        jgx1 &= "<tr><td bgcolor=#ffffff>批号</td><td bgcolor=#ffffff>" & fv(8) & "</td></tr>"
-        jgx1 &= "<tr><td bgcolor=#ffffff>价格</td><td bgcolor=#ffffff>" & "电询</td></tr>"
-        jgx1 &= "<tr><td bgcolor=#ffffff>起售数量</td><td bgcolor=#ffffff>" & fv(9) & "</td></tr>"
-        jgx1 &= "<tr><td bgcolor=#ffffff>描述</td><td bgcolor=#ffffff>" & fv(1) & "</td></tr>"
-        jgx1 &= "<tr><td colspan=2 bgcolor=#ffffff>"
+        jgx1 &= "<h3>" & fv(3) & "</h3>"
+        jgx1 &= "<table Class=""prtable"">"
+        jgx1 &= "<tr><td>厂商</td><td>" & fv(2) & "</td></tr>"
+        jgx1 &= "<tr><td>封装</td><td>" & fv(7) & "</td></tr>"
+        jgx1 &= "<tr><td>批号</td><td>" & fv(8) & "</td></tr>"
+        jgx1 &= "<tr><td>价格</td><td>" & "电询</td></tr>"
+        jgx1 &= "<tr><td>起售数量</td><td>" & fv(9) & "</td></tr>"
+        jgx1 &= "<tr><td>描述</td><td>" & fv(1) & "</td></tr>"
+        jgx1 &= "<tr><td colspan=2>"
         jgx1 &= "查看<a target=_blank href=manual.aspx?skey=" & fv(3) & ">" & fv(3) & "资料, 相关资料</a>"
         jgx1 &= "</td></tr>"
-        jgx1 &= "<tr><td colspan=2 bgcolor=#abcdef>"
+        jgx1 &= "<tr><td colspan=2><div Class=""prbuybutton"">"
         jgx1 &= "<a href=Buy.aspx?p=" & fv(3) & "><font color=red size=4>购买" & fv(3) & "</a>"
-        jgx1 &= "</td></tr>"
+        jgx1 &= "</div></td></tr>"
         jgx1 &= "</table>"
 
         '生成产品图片信息 -- jgx2 
@@ -67,45 +69,30 @@
         If Len(fv(4)) > 5 Then
             jgx2 &= "<a href=showpic.aspx?i=" & Center_PicUrl & "/" & fv(4) & " target=_blank><img src='" & Center_PicUrl & "/T_" & fv(4) & "' alt=" & fv(3) & " border=0 width=300></a>"
         Else
-            jgx2 &= "<img src='images/Come_on.gif' border=0 width=300 alt=" & fv(3) & " >"
+            jgx2 &= "<img src='images/Come_on.gif' border=0 width=418 alt=" & fv(3) & " >"
         End If
 
         '生成产品说明信息  -- jgx3
-        jgx3 = ""
+        jgx3 = "<div class=""prsm"">"
         If System.Convert.IsDBNull(fv(5)) = True Then
-            jgx3 &= "<b>产品说明</b><br>请来电咨询!"
+            jgx3 &= "请来电咨询!"
         Else
-            jgx3 &= "<b>产品说明</b><br>" & Replace(Replace(fv(5), vbCrLf, "<br>"), " ", "&nbsp") & "<br>"
+            jgx3 &= "<br>" & Replace(Replace(fv(5), vbCrLf, "<br>"), " ", "&nbsp") & "<br>"
         End If
+        jgx3 &= "</div>"
 
-        '产品页面最终排版
-        jg = "<table width=998 border=0 style='font-size:12pt;'>"
-        jg &= "<tr>"
-        jg &= "<td width=280 valign=top>"
-        jg &= WCS.lxfs()
-        jg &= "<h3>最新更新</h3>"
-        jg &= WCS.SearchP(9, 0, 0, "Products.aspx")
-        jg &= "</td>"
-        jg &= "<td valign=top>"
-        jg &= "<table border=0>"
-        jg &= "<tr>"
-        jg &= "<td width=345 valign=top>" & jgx2 & "</td>"
-        jg &= "<td>" & jgx1 & "</td>"
-        jg &= "</tr>"
-        jg &= "<tr>"
-        jg &= "<td colspan=2 style=""word-break:break-all;"">" & jgx3 & "</td>"
-        jg &= "</tr>"
-        jg &= "</table>"
-        jg &= "<p><h3>类似" & fv(3) & "产品</h3>"
-        jg &= WCS.SearchP(1, Left(fv(3), 2), 1, "Catalogs.aspx")
-        jg &= "</p>"
-        jg &= "</td>"
-        jg &= "</tr>"
-        jg &= "</table>"
-        'jg &= "<font color=red>错误ID号!"
-        '
+
+        Label1.Text = jgx5
+        Label2.Text = WCS.lxfs()
+        Label3.Text = WCS.SearchP(9, 0, 0, "Products.aspx")
+        Label4.Text = jgx2
+        Label5.Text = jgx1
+        Label6.Text = jgx3
+        Label7.Text = fv(3)
+        Label8.Text = WCS.SearchP(1, Left(fv(3), 2), 1, "Catalogs.aspx")
+
         WCS.countProduct(cid)
-        Label1.Text = jg
+        ' Label1.Text = jg
 
     End Sub
 

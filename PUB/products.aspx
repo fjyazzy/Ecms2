@@ -1,9 +1,6 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="products.aspx.vb" Inherits="Ecms2.products" %>
 <%@ Register tagPrefix="PageBottomhtml" tagname="Bottombar" src="components/pageBottom.ascx" %>
-<%@ Register tagPrefix="PageTophtml" tagname="topbar" src="components/pagetop.ascx" %>
-<%@ Register tagPrefix="Menubar" tagname="menubar" src="components/menubar.ascx" %>
-<%@ Register tagPrefix="CategoryList" tagname="CateList" src="components/CategoryList.ascx" %>
-<%@ Register tagPrefix="searchbox" tagname="sbox" src="components/searchbox.ascx" %>
+<%@ Register tagPrefix="PageTophtmlx" tagname="topbar" src="components/pagetopx.ascx" %>
 <html>
 <head>
 		<title runat="server" id="PageTitle">电子资料-电子-资料中心</title>
@@ -13,33 +10,38 @@
         <script type="text/javascript" src="js/common.js"></script>
 </head>
 <body>
-        <table class="tt" style="background:url(images/topbar1.png)">
-            <tr>
-                <td><PAGETOPHTML:TOPBAR id="tBar" runat="server"></PAGETOPHTML:TOPBAR></td>
-                <td><searchbox:sbox id="sbox1" runat="server"></searchbox:sbox></td>
-            </tr>
+     <PAGETOPHTMLx:TOPBAR id="tBarx" runat="server"></PAGETOPHTMLx:TOPBAR>       
+      <form id="Form1" method="post" runat="server">
+       <table class="tt" border="0">
+       <tr>
+           <td style="vertical-align:middle;text-align:left;height:40px;"><div class="prnati"><asp:Label id="Label1" runat="server"></asp:Label></div></td>
+        </tr>
+       <tr>
+           <td style="vertical-align:top;width:280px;">
+                <asp:Label id="Label2" runat="server"></asp:Label>
+                <h3>最新更新</h3>
+                <asp:Label id="Label3" runat="server"></asp:Label>
+           </td>
+           <td style="vertical-align:top;text-align:left;">
+                <table style="width:100%;" border="0">
+                    <tr>
+                        <td style="vertical-align:top;text-align:left;"><asp:Label id="Label4" runat="server">图片</asp:Label></td>
+                        <td style="vertical-align:top;text-align:left;"><asp:Label id="Label5" runat="server">参数</asp:Label></td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 style="text-align:left;break-all;">
+                            <h3>产品说明</h3>
+                            <asp:Label id="Label6" runat="server"></asp:Label>
+                        </td>
+                    </tr>        
+                </table>
+                <h3>类似<asp:Label id="Label7" runat="server"></asp:Label>产品</h3>
+                <asp:Label id="Label8" runat="server">产品列表</asp:Label>
+            </td>
+        </tr>
         </table>
-		<table class="tt" border="0">
-            <tr>
-                <td class="dhltd"><CategoryList:CateList id="Menubar1" runat="server"></CategoryList:CateList></td>
-                <td class="dhltd"><Menubar:Menubar id="mbar" runat="server"></Menubar:Menubar></td>
-                <td class="dhltd" ></td>
-            </tr>
-        </table>
-        <table class="tt" style="height:260px;background:url(images/topbar2.png)">
-            <tr>
-                <td></td>
-            </tr>
-        </table>
-        
-        <form id="Form1" method="post" runat="server">
-        <table class="tt">
-			<tr>
-				<td colspan="2"><asp:Label id="Label1" runat="server"></asp:Label></td>
-			</tr>
-		</table>
-		</form>
 
+		</form>
 		<PAGEBottomHTML:BottomBAR id="bottombar1" runat="server"></PAGEBottomHTML:BottomBAR>
 </body>
 </html>

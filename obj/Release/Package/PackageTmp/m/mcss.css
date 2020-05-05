@@ -1,0 +1,103 @@
+﻿:root{
+    --maincolor:#fecd89;
+}
+body,form,table {
+    padding:0px
+}
+table tt{
+    width:900px;
+}
+
+
+/*底部导航栏*/
+.g-foot {
+    z-index: 1000;
+    position: fixed; left: 0;bottom: 0;
+    width: 100%; height: 50px;line-height: 50px;
+	background-color:#eeeeee;
+ }
+div.g-foot a:link,div.g-foot a:visited
+	{
+	font-weight:bold;
+    color:#fecd89;
+	color:var(--maincolor);
+	background-color:#eeeeee;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+	}
+
+
+/* 导航栏 */
+div.horizontal{	height:16px;}
+div.horizontal ul{list-style-type:none;	margin:0;padding:0;	}
+div.horizontal li{list-style-type:none;	float:left;	}
+div.horizontal a{display:block;	width:86px;	}
+div.horizontal a:link,div.horizontal a:visited
+	{
+	font-weight:bold;
+    color:#fecd89;
+	color:var(--maincolor);
+	background-color:#eeeeee;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+	}
+div.horizontal a:hover,div.horizontal a:active	{background-color:#ffffff;	}
+
+/*search BOX*/
+div.hotkey a{
+    color:#fecd89;
+    color:var(--maincolor);
+    padding:5px;
+    font-size:12px;
+    text-decoration-line:none;
+}
+
+div.search {
+	padding:10px 0;
+}
+.bar6 input {
+	border:2px solid var(--maincolor);
+	border-radius:5px;
+	background:transparent;
+	top:0;
+	right:0;
+	height:40px;
+	padding-left:13px;
+}
+.bar6 button {
+    background-color:#fecd89;
+	background:var(--maincolor);
+	border-radius:0 5px 5px 0;
+	width:60px;
+	top:0;
+	right:0;
+	cursor:pointer;
+	position:absolute;
+}
+.bar6 button:before {
+	content:"搜索";
+	font-size:13px;
+    color:#fecd89;
+    color:var(--maincolor);
+
+}
+
+/*Product List*/
+div.plist a {
+    color:#fecd89;
+    color:var(--maincolor);
+    padding:5px;
+    font-size:15px;
+    text-decoration-line:none;
+}
+div.plist {
+    text-align:left;
+}
+
+div.plist li{
+    list-style:circle;
+}

@@ -1,7 +1,6 @@
 ﻿:root{
     --maincolor:#fecd89;
 }
-
 body,form,table{
     margin:0;
     text-align:center;
@@ -16,6 +15,7 @@ table.tt{
 
 /* 页面最底端 */
 div.binx a{
+    color:#fecd89;
     color:var(--maincolor);
     font-size:18px;
     text-decoration-line:none;
@@ -32,6 +32,7 @@ div.binx a{
  text-align:center;
  }
  div.bmm a {
+    color:#fecd89;
     color:var(--maincolor);
     font-size:12px;
     text-decoration-line:none;
@@ -39,12 +40,13 @@ div.binx a{
 
 /* 导航栏 */
 div.horizontal{	height:16px;}
-div#maincontent div.horizontal ul{list-style-type:none;	margin:0;padding:0;	}
+div.horizontal ul{list-style-type:none;	margin:0;padding:0;	}
 div.horizontal li{list-style-type:none;	float:left;	}
 div.horizontal a{display:block;	width:86px;	}
 div.horizontal a:link,div.horizontal a:visited
 	{
 	font-weight:bold;
+    color:#fecd89;
 	color:var(--maincolor);
 	background-color:#eeeeee;
 	text-align:center;
@@ -59,6 +61,7 @@ div.CategoryBar{
 	font-weight:bold;
 	color:#FFFFFF;
     height:23px;
+    background-color:#fecd89;
     background-color:var(--maincolor);
     width:86px;
 	padding:4px;
@@ -68,24 +71,27 @@ div.CategoryBar{
     text-align:left;
 }
 div.cclist li{
+    margin:4px;
     list-style:circle;
 }
 div.cclist{
     text-align:left;
-    POSITION: absolute; 
+    POSITION: absolute;
+	padding:5px;
+    background-color:#fecd89;     
     background-color:var(--maincolor);
 }
 div.cclist a{
     color:#ffffff;
-    padding:5px;
     font-size:15px;
     text-decoration-line:none;
 }
 div.cclist a:hover,div.cclist a:active	{background-color:#cccccc;	}
 
 .dhltd2{
-    width:200px;
+   width:200px;
    height:16px;
+   background-color:#fecd89;
    background-color:var(--maincolor);
    vertical-align:top;
 
@@ -96,43 +102,34 @@ div.cclist a:hover,div.cclist a:active	{background-color:#cccccc;	}
    background-color:#eeeeee;
    vertical-align:top;
 }
+
 /*search BOX*/
-div.hotkey a{
+div.hotkey, div.hotkey a{
+    color:#fecd89;
     color:var(--maincolor);
     padding:5px;
-    font-size:12px;
+    font-size:13px;
     text-decoration-line:none;
 }
-
-div.search {
-	padding:10px 0;
-}
-.bar6 input {
+div.searchbar input {
 	border:2px solid var(--maincolor);
 	border-radius:5px;
 	background:transparent;
-	top:0;
-	right:0;
 	height:40px;
 	padding-left:13px;
+    margin:5px;
 }
-.bar6 button {
-	background:var(--maincolor);
-	border-radius:0 5px 5px 0;
-	width:60px;
-	top:0;
-	right:0;
-	cursor:pointer;
-	position:absolute;
+div.searchbar input[type=text]{
+   width:450px;
 }
-.bar6 button:before {
-	content:"搜索";
-	font-size:13px;
-	color:#F9F0DA;
+div.searchbar input[type=button]{
+   width:80px;
 }
+
 
 /*Product List*/
 div.plist a {
+    color:#fecd89;
     color:var(--maincolor);
     padding:5px;
     font-size:15px;
@@ -148,27 +145,30 @@ div.plist li{
 
 /**浮动的网站联系人列表*/
 .lxr{
-    position:absolute;
-    width:300px;
-    right:100px;
-    bottom:500px;
+    width:260px;
     margin:5px;
     padding:5px;
     text-align:left;
-    border-collapse:collapse;
-    background-color:var(--maincolor);
 }
+.lxr, .lxr td{
+    border-collapse:collapse;
+    border: 1px solid #fecd89; 
+    border: 1px solid var(--maincolor); 
+}
+
 
 /* index  css*/
 .homebar2,.homebar3{
     height:25px;
     color:#ffffff;
+    background-color:#fecd89;
     background-color:var(--maincolor);
 }
 .newslist{
     text-align:left;
 }
 .newslist a {
+    color:#fecd89;
     color:var(--maincolor);
     background-color:#ffffff;
     padding:1px;
@@ -184,5 +184,36 @@ div.plist li{
 /* buy page*/
 div.buyitem{
     color:#ffffff;
+    background-color:#fecd89;
     background-color:var(--maincolor);
+}
+
+/*Product page */
+.prtable, .prtable td{
+   border-collapse:collapse;  
+   border: 1px solid #fecd89; 
+   border: 1px solid var(--maincolor); 
+}
+div.prbuybutton{
+    background-color:#fecd89;
+	background:var(--maincolor);
+	border-radius:0 5px 5px 0;
+	width:260px;
+    height:50px;
+	cursor:pointer;
+    vertical-align:middle;
+}
+div.prsm{
+    font-size:15px;
+    color:#fecd89;
+    color:var(--maincolor);
+    text-align:left;
+}
+div.prnati a{
+    margin:2px;
+    padding:2px;
+    font-size:15px;
+    color:#fecd89;
+    color:var(--maincolor);
+    text-align:left;
 }

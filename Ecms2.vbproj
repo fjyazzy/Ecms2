@@ -79,6 +79,13 @@
     <Content Include="manual.aspx" />
     <Content Include="mcatalogs.aspx" />
     <Content Include="Mypages.aspx" />
+    <Content Include="m\images\buy.gif" />
+    <Content Include="m\images\pdf.gif" />
+    <Content Include="m\images\pic.gif" />
+    <Content Include="m\index.aspx" />
+    <Content Include="m\mbottom.ascx" />
+    <Content Include="m\mcss.css" />
+    <Content Include="m\mtopbar.ascx" />
     <Content Include="products.aspx" />
     <Content Include="showpic.aspx" />
     <Content Include="vcode.aspx" />
@@ -204,6 +211,27 @@
     <Compile Include="Mypages.aspx.vb">
       <DependentUpon>Mypages.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="m\index.aspx.designer.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="m\index.aspx.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="m\mbottom.ascx.designer.vb">
+      <DependentUpon>mbottom.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="m\mbottom.ascx.vb">
+      <DependentUpon>mbottom.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m\mtopbar.ascx.designer.vb">
+      <DependentUpon>mtopbar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="m\mtopbar.ascx.vb">
+      <DependentUpon>mtopbar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="products.aspx.designer.vb">
       <DependentUpon>products.aspx</DependentUpon>
